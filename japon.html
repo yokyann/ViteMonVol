@@ -1,0 +1,223 @@
+<html>
+    <head>
+        <title>Japon</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="japon.css">
+        <script src="index.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    </head> 
+    
+    <body>
+        <div class="bg-img">
+            <div class="header">
+                <ul class = "navbar">
+                    <div class="search-box"> 
+                        <button onclick="myFunction()" class="dropbtn"><i class="fa fa-search"></i></button>
+                        <input  id="input" class="search-txt" type="text" placeholder="Quelle destination ?"   onkeyup="filtre()" name="search">
+         
+                        <div id="myDropdown" class="dropdown-contenu">
+                            <ul id="myUL">
+ 
+                                <li><a href="japon.html">Japon</a></li>
+                                <li><a href="#">Grèce</a></li>
+                                <li><a href="#">Canada</a></li>
+                              </ul>
+                        </div>
+                        
+                        </div>                    
+                    
+                    <img class="logo" src="./image/logo.png" alt="avion" width="40" height="40"/>                    
+        
+                    <li id="liste" class="inscription"><a id="lien" href="formulaire.html">Inscription</a></li>
+                    <li id="liste"><a id="lien" href="index.html">Circuits</a></li>
+                    <li id="liste"><a id="lien" class="p_active" href="index.html">Accueil</a></li>
+                    <li class="logo-text"><a id="lien" class="logo-lien" href="index.html">ViteMonVol</a></li>
+                </ul> 
+            </div>
+        </div>
+        
+        
+        <div id="Ccircuits" class="contenu">
+            <br>
+            <div class="stitre"><h2 class="sous-titre">Voyage sur l'achipel nippon</h2></div>
+            <div class="description">
+                <h3>Petite description</h3>
+                <br>
+                <p>Venez visiter les villes les plus emblématiques du Japon, pays entre tradition et modernité, durant ce voyage, vous pourrez visitez des temples
+                    comme le fameux centre commercial Pokemon,puis descendrer vers des petits villages de campagnes, pour visitez le mont fuji, et bien plus encore!</p>
+                <br>
+                <p><b>départ</b> : 15/04/22</p>
+                <p><b>durée</b> : 15 jours</p>
+                <p><b>prix</b> : 2500€</p>
+                
+            </div>
+            <div class="circuits">
+               <div class="circuit">
+                <h3>Détails du circuit</h3>
+                    <div id="c1">
+                       <ul class="ul">
+                           <li id="li" class="li1">Maximum 30 participants <br> Accessible à partir de 8 ans</li>
+                           <li id="li" class="li2">1 Hotel par ville</li>
+                           <li id="li" class="li3">Bus et train </li>
+                           <li id="li" class="li4">Guides locaux francophones</li>
+                       </ul>
+                    </div>
+                </div>
+               
+               
+               <div id="c2" class="circuit">
+                    <h3>Itinéraire</h3>
+                   <div>
+                        <img class="icircuit" src="./image/map-japon.PNG" alt="" >
+                   </div>
+                       <p>Tokyo - Hakone - Kyoto - Osaka</p>
+               </div>
+           
+               <div class="circuit">               
+                   <h3>Ce que nous avons aimé</h3>
+                    <div id="c1">
+                        <ul class="ul2">
+                            <li>Visite des temples traditionnels</li>
+                            <li>1 journée libre à Tokyo</li>
+                            <li>Centre commercial Pokémon</li>
+                            <li>Mont fuji</li>
+                        </ul>
+                        
+                    </div>
+               </div>
+           </div>    
+       </div>
+
+       <div id="Iti">
+            <div class="stitre"><h2 class="sous-titre">Itinéraire</h2></div>
+            <div class="box">
+                <div class="jour">
+                    <br>
+                    <div>
+                        <div>
+                            <img class="img1" src="./image/j1.jpeg" alt="" width="300px">
+                        </div>
+                            
+                        <div id="jours">
+                            <h3>Jour 1-5 : Paris - Tokyo</h3>
+                            <br>
+                            <ul>
+                                <li><i>Jour 1 : </i><b>Arrivée</b> à l'aéroport de Tokyo (Narita ou Haneda). Bienvenue au Japon !
+                                    Accueil à la sortie des douanes par notre assistant.</li>
+                                <li><b>Transfert</b> en bus de l'aéroport vers votre hôtel <a href="https://www.redplanethotels.com/hotel/asakusa-tokyo?utm_source=affilired&&utm_medium=affiliate&&utm_campaign=adn">Red Planet Tokyo</a></li>
+                                <li><i>Jour 2 : </i><b>Visite accompagnée de Tokyo</b> découverte de différents quartiers : du site de l’ancien marché aux poissons de Tsukiji à l’atmosphère populaire et traditionnelle</li>
+                                <li><i>Jour 3 : </i><b>Visite accompagnée</b> du centre commercial Pokemon et de temples</li>
+                                <li><i>Jour 4 : </i><b>Journée libre</b></li>
+                                <li><i>Jour 5 : </i><b>En route pour le Mont Fuji</b> en train et Shinkansen de votre hôtel vers le centre de Hakone - Mont Fuji</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="jour">
+                    
+                    <div>
+                        <div>
+                            <img class="img2" src="./image/j2.png" alt="" width="300px">
+                        </div>
+                            
+                        <div class="j2" id="jours">
+                            <h3>Jour 6-8 : Hakone</h3>
+                            <br>
+                            <ul class="ul2">
+                                <li><i>Jour 6 : </i><b>Mont Fuji</b></li>
+                                <li><i>Jour 7 : </i>Visite du sanctuaire shinto Hakone-jinja</li>
+                                <li><i>Jour 8 : </i><b>En route pour Kyoto</b> en train à l'hotel <i>Yutowa</i>, Shinmachi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                
+            
+                <div class="jour">
+                    
+                    <div>
+                        <div>
+                            <img class="img3" src="./image/j3.png" alt="" width="300px">
+                        </div>
+                            
+                        <div class="j3" id="jours">
+                            <h3>Jour 8-12 : Kyoto</h3>
+                            <br>
+                            <ul>
+                                <li><i>Jour 8 : </i>Le charmant village d’Ohara, en banlieue de Kyoto</li>
+                                <li><i>Jour 9 : </i>Excursion en Shinkansen (50 min) jusqu’au château de Himeji (patrimoine de l’Unesco) </li>
+                                <li><i>Jour 10 : </i><b>Journée libre</b></li>
+                                <li><i>Jour 11 : </i><b>Excursion</b> hors des sentiers battus, dans la campagne de Kyoto, pour découvrir les champs et producteur de thé</li>
+                                <li><i>Jour 12 : </i><b>En route pour Osaka</b> en train à l'hotel <i>Bettei, Nest Hotel</i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                
+                <div id="bg" class="jour">
+                    
+                    <div>
+                        <div>
+                            <img class="img4" src="./image/j4.png" alt="" width="300px">
+                        </div>
+                            
+                        <div class="j2" id="jours">
+                            <h3>Jour 13-15 : Osaka</h3>
+                            <br>
+                            <ul>
+                                <li><i>Jour 13 : </i>Visite du somptueux temple Kongobuji</li>
+                                <li><i>Jour 14 : </i>après-midi shopping, et visite nocturne de la ville : le quartier animé de Namba et de la rue Dôtonbori</li>
+                                <li><i>Jour 15 : </i><b>Retour à Paris</b></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <footer class="footer">
+        <div class="l-footer">
+            <h1><img class="avion2" src="./image/t-logo.png" alt=""></h1>
+            <p>                                                        </p>
+            
+        </div>
+        <ul class="r-footer">
+            <li>
+                <h2><b><u>Réseaux sociaux</u></b></h2>
+                <ul class="box">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                </ul>
+            </li>
+            <li class="features">
+                <h2><b><u>Information</u></b></h2>
+                <ul class="box h-box">
+                    <li><a href="#">Ecrire un avis</a></li>
+                    <li><a href="#">Assistance</a></li>
+                    <li><a href="#">Promotions</a></li>
+                    <li><a href="#">Certifications</a></li>
+                    <li><a href="#">Aide</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2><b><u>A propos</u></b></h2>
+                <ul class="box">
+                    <li><a href="#">Politiques de confidentialité</a></li>
+                    <li><a href="#">Termes et conditions</a></li>
+                    <li><a href="#">Contrat</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="b-footer">
+        <p>All rights reserved by ©ViteMonVol 2021 </p>
+        </div>
+    </footer>
+    </body>

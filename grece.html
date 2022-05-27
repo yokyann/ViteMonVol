@@ -1,0 +1,209 @@
+<html>
+    <head>
+        <title>Grece</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="grece.css">
+        <script src="index.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    </head> 
+    
+    <body>
+        <div class="bg-img">
+            <div class="header">
+                <ul class = "navbar">
+                    <div class="search-box"> 
+                        <button onclick="myFunction()" class="dropbtn"><i class="fa fa-search"></i></button>
+                        <input  id="input" class="search-txt" type="text" placeholder="Quelle destination ?"   onkeyup="filtre()" name="search">
+         
+                        <div id="myDropdown" class="dropdown-contenu">
+                            <ul id="myUL">
+ 
+                                <li><a href="japon.html">Japon</a></li>
+                                <li><a href="grece.html">Grèce</a></li>
+                                <li><a href="canada.html">Canada</a></li>
+                              </ul>
+                        </div>
+                        
+                        </div>                    
+                    
+                    <img class="logo" src="./image/logo.png" alt="avion" width="40" height="40"/>                    
+        
+                    <li id="liste" class="inscription"><a id="lien" href="formulaire.html">Inscription</a></li>
+                    <li id="liste"><a id="lien" href="index.html">Circuits</a></li>
+                    <li id="liste"><a id="lien" class="p_active" href="index.html">Accueil</a></li>
+                    <li class="logo-text"><a id="lien" class="logo-lien" href="index.html">ViteMonVol</a></li>
+                </ul> 
+            </div>
+        </div>
+        
+        
+        <div id="Ccircuits" class="contenu">
+            <br>
+            <div class="stitre"><h2 class="sous-titre">Visite historique en Grèce</h2></div>
+            <div class="description">
+                <h3>Petite description</h3>
+                <br>
+                <p>Venez participer a notre circuit sur l'histoire de la grèce, la mythologie Grec, son évolution au fil des années,
+                    ses traditions, ses spécialités culinaire, le tout saupoudré de baignade dans la mer méditerranée.</p>
+                <br>
+                <p><b>départ</b> : 01/09/22</p>
+                <p><b>durée</b> : 15 jours</p>
+                <p><b>prix</b> : 1000€</p>
+                
+            </div>
+            <div class="circuits">
+               <div class="circuit">
+                <h3>Détails du circuit</h3>
+                    <div id="c1">
+                       <ul class="ul">
+                           <li id="li" class="li1">Maximum 20 participants <br> Accessible à partir de 8 ans</li>
+                           <li id="li" class="li2">1 Hotel par ville</li>
+                           <li id="li" class="li3">Bus et train </li>
+                           <li id="li" class="li4">Guides locaux francophones</li>
+                       </ul>
+                    </div>
+                </div>
+               
+               
+               <div id="c2" class="circuit">
+                    <h3>Itinéraire</h3>
+                   <div>
+                        <img class="icircuit" src="./image/map_grece.png" alt="" >
+                   </div>
+                       <p>Athènes - le Péloponnèse - Thessalonique</p>
+               </div>
+           
+               <div class="circuit">               
+                   <h3>Ce que nous avons aimé</h3>
+                    <div id="c1">
+                        <ul class="ul2">
+                            <li>Spécialité culinaire</li>
+                            <li>Mer Méditerranée</li>
+                            <li>Sites archéologique</li>
+                            <li>Eglises</li>
+                        </ul>
+                        
+                    </div>
+               </div>
+           </div>    
+       </div>
+
+       <div id="Iti">
+            <div class="stitre"><h2 class="sous-titre">Itinéraire</h2></div>
+            <div class="box">
+                <div class="jour">
+                    <br>
+                    <div>
+                        <div>
+                            <img class="img1" src="./image/ath.png" alt="" width="300px">
+                        </div>
+                            
+                        <div id="jours">
+                            <h3>Jour 1-5 : Paris - Athènes</h3>
+                            <br>
+                            <ul>
+                                <li><i>Jour 1 : </i><b>Arrivée</b> à l'aéroport d'Athènes Elefthérios-Venizélos. Bienvenue en Grèce !
+                                    Accueil à la sortie des douanes par notre assistant.</li>
+                                <li><b>Transfert</b> en bus de l'aéroport vers votre hôtel <i>Candia hotel</i></li>
+                                <li><i>Jour 2 : </i><b>Visite accompagnée</b> du quartier de Plaka, Gazi ainsi que le musée de l'acropole</li>
+                                <li><i>Jour 3 : </i><b>Visite accompagnée</b> du stade panathéique, la porte d'Hadrien et le temple de Zeus</li>
+                                <li><i>Jour 4 : </i><b>Journée libre</b></li>
+                                <li><i>Jour 5 : </i>balade au parc de Zappéion puis direction Péloponnèse, installation à <i>Nikki Beach Resort
+                                    & Spa</i> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="jour">
+                    
+                    <div>
+                        <div>
+                            <img class="img2" src="./image/pelo.png" alt="" width="300px">
+                        </div>
+                            
+                        <div class="j2" id="jours">
+                            <h3>Jour 6-10 : Péloponnèse</h3>
+                            <br>
+                            <ul class="ul2">
+                                <li><i>Jour 6 : </i>Visite des sites antiques de <b>Mycènes</b> et <b>Epidaure</b></li>
+                                <li><i>Jour 7 : </i>Découverte du magnifique site de Mistra, classé au patrimoine mondial de l’UNESCO</li>
+                                <li><i>Jour 8 : </i>Visite de l'Olympie</li>
+                                <li><i>Jour 9 : </i><b>Journée libre</b></li>
+                                <li><i>Jour 10 : </i><b>En route pour Thessalonique</b> en train à l'hotel <i>Electra Palace
+                                </i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                
+            
+                <div class="jour">
+                    
+                    <div>
+                        <div>
+                            <img class="img3" src="./image/thess.png" alt="" width="300px">
+                        </div>
+                            
+                        <div class="j3" id="jours">
+                            <h3>Jour 11-15 : Thessalonique</h3>
+                            <br>
+                            <ul>
+                                <li><i>Jour 11 : </i>Visite de la ville, de la tour Blanche, du marché Modiano</li>
+                                <li><i>Jour 12 : </i>Balade au bord de la mer</li>
+                                <li><i>Jour 13 : </i><b>Journée libre</b></li>
+                                <li><i>Jour 14 : </i>Découverte des ruines gréco-romaines</li>
+                                <li><i>Jour 15 : </i>Retour à Paris</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                
+            </div>
+    </div>
+
+    <footer class="footer">
+        <div class="l-footer">
+            <h1><img class="avion2" src="./image/t-logo.png" alt=""></h1>
+            <p>                                                        </p>
+            
+        </div>
+        <ul class="r-footer">
+            <li>
+                <h2><b><u>Réseaux sociaux</u></b></h2>
+                <ul class="box">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                </ul>
+            </li>
+            <li class="features">
+                <h2><b><u>Information</u></b></h2>
+                <ul class="box h-box">
+                    <li><a href="#">Ecrire un avis</a></li>
+                    <li><a href="#">Assistance</a></li>
+                    <li><a href="#">Promotions</a></li>
+                    <li><a href="#">Certifications</a></li>
+                    <li><a href="#">Aide</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2><b><u>A propos</u></b></h2>
+                <ul class="box">
+                    <li><a href="#">Politiques de confidentialité</a></li>
+                    <li><a href="#">Termes et conditions</a></li>
+                    <li><a href="#">Contrat</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="b-footer">
+        <p>All rights reserved by ©ViteMonVol 2021 </p>
+        </div>
+    </footer>
+    </body>

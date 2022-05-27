@@ -1,0 +1,188 @@
+<html>
+    <head>
+        <title>ViteMonVol</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head> 
+    
+    <body>
+        <div class="container">
+            <div class="header">
+                <ul class = "navbar">
+                    <div class="search-box"> 
+                        <button onclick="myFunction()" class="dropbtn"><i class="fa fa-search"></i></button>
+                        <input  id="input" class="search-txt" type="text" placeholder="Quelle destination ?"   onkeyup="filtre()" name="search">
+         
+                        <div id="myDropdown" class="dropdown-contenu">
+                            <ul id="myUL">
+ 
+                                <li><a href="japon.html">Japon</a></li>
+                                <li><a href="grece.html">Grèce</a></li>
+                                <li><a href="canada.html">Canada</a></li>
+                              </ul>
+                        </div>
+                        
+                        </div>                    
+                    
+                    <img class="logo" src="./image/logo.png" alt="avion" width="40" height="40"/>                    
+        
+                    <li id="liste" class="inscription"><a id="lien" href="formulaire.html">Inscription</a></li>
+                    <li id="liste"><a id="lien" href="#Ccircuits">Circuits</a></li>
+                    <li id="liste"><a id="lien" class="p_active" href="index.html">Accueil</a></li>
+                    <li class="logo-text"><a id="lien" class="logo-lien" href="index.html">ViteMonVol</a></li>
+                </ul> 
+            </div>
+            
+            <div class="slider">
+                <!-- fade css -->
+                <div class="myslide fade" style="display: block;">
+                    <div class="txt">
+                        <h1>A la Découverte du Japon</h1>
+                        <p>Embarquez dans une nouvelle aventure<br>dans un des plus beau d'Asie</p>
+                    </div>
+                    <img class="image" src="./image/japon.jpg" style="width: 100%; height: 100%;">
+                </div>
+                
+                <div class="myslide fade">
+                    <div class="txt">
+                        <h1>Visite Historique en Grèce</h1>
+                        <p>Au coeur<br>du pays des dieux de l'Olympe</p>
+                    </div>
+                    <img class="image" src="./image/grece.jpg" style="width: 100%; height: 100%;">
+                </div>
+                
+                <div class="myslide fade">
+                    <div class="txt">
+                        <h1>Voyage au pays des Caribous</h1>
+                        <p>Au Pays<br> des Caribous</p>
+                    </div>
+                    <img class="image" src="./image/vancouver.jpg" style="width: 100%; height: 100%;">
+                </div>
+                <div class="fleche">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                
+                <div class="dotsbox" style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>  
+         
+         <div id="Ccircuits" class="contenu">
+             <div class="stitre"><h2 class="sous-titre">Les plus belles Destinations</h2></div>
+             <div class="circuits">
+                <div class="circuit">
+                    
+                        <a href="japon.html">
+                            <div>
+                                <img class="icircuit" src="./image/jap2.png" alt="" >
+                            </div>
+                            <div>
+                                <h3>Japon</h3>
+                                <p>prix : 2500€</p>
+                                <p>durée : 15 jours</p>
+                            </div>
+                        </a>
+                    
+                </div>
+                
+                
+                <div class="circuit">
+                    
+                        <a href="grece.html">
+                            <div>
+                                <img class="icircuit" src="./image/gre2.png" alt="" >
+                            </div>
+                            <div>
+                                <h3>Grèce</h3>
+                                <p>prix : 1000€</p>
+                                <p>durée : 15 jours</p>
+                            </div>
+                        </a>
+                    
+                </div>
+            
+                <div class="circuit">
+                   
+                        <a href="canada.html">
+                            <div>
+                                <img class="icircuit" src="./image/vanc2.png" alt="" >
+                            </div>
+                            <div>
+                                <h3>Canada</h3>
+                                <p>prix : 3000€</p>
+                                <p>durée : 10 jours</p>
+                            </div>
+                        </a>
+                    
+                </div>
+            </div>    
+        </div>
+
+        <div class="fonction">
+            <h1 class="fonct-h">Pourquoi voyager avec nous</h1>
+            <div class="col">
+                <div class="col1">
+                    <img  class="col-img " src="./image/travel-luggage.png" alt="">
+                    
+                    <p class="col-p">Modification sans frais & réservation flexible</p>
+                </div>
+                <div class="col2">
+                    <img  class="col-img " src="./image/hygiene.png" alt="">
+                    
+                    <p class="col-p">Mesures d'hygiène et sécurité renforcées</p>
+                </div>
+                <div class="col3">
+                    <img  class="col-img " src="./image/house.png" alt="">
+                    
+                    <p class="col-p">Des hébergements sélectionnés pour privilégier la rencontre</p>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="l-footer">
+                <h1><img class="avion2" src="./image/t-logo.png" alt=""></h1>
+                <p>                                                        </p>
+                
+            </div>
+            <ul class="r-footer">
+                <li>
+                    <h2><b><u>Réseaux sociaux</u></b></h2>
+                    <ul class="box">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Pinterest</a></li>
+                    </ul>
+                </li>
+                <li class="features">
+                    <h2><b><u>Information</u></b></h2>
+                    <ul class="box h-box">
+                        <li><a href="#">Ecrire un avis</a></li>
+                        <li><a href="#">Assistance</a></li>
+                        <li><a href="#">Promotions</a></li>
+                        <li><a href="#">Certifications</a></li>
+                        <li><a href="#">Aide</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h2><b><u>A propos</u></b></h2>
+                    <ul class="box">
+                        <li><a href="#">Politiques de confidentialité</a></li>
+                        <li><a href="#">Termes et conditions</a></li>
+                        <li><a href="#">Contrat</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="b-footer">
+            <p>All rights reserved by ©ViteMonVol 2021 </p>
+            </div>
+        </footer>
+    </body>
+</html>
